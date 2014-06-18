@@ -12,15 +12,12 @@ forkの練習用
 
 それが許可されればこちら側の元リポジトリに自分の編集が反映される
 
-branch化
-こっちにpushするパターンもあります
+##branch化
 
-git flowによるが
-
-自分のリポジトリーでもbranchをつくり
-そこから 大本のリポジトリーのmster以外のbranchに pull request を投げる
-その後 その 大本のリポジトリbranchがマージされた後 に問題無いとわかれば　masterにbranch内容がマージされます
-
-そのmaster内容を 自分の リポジトリーのmasterにpull(持ってくる)とmasterが大本データの最新版になっている状態になる
-
-subversion だとそのリポジトリーが一つしか無いため branchのマージが切りにくい状態になる
+    こっちにpushするパターンもあります
+    git flowによるが
+    自分のリポジトリーでもbranchをつくり
+    そこから 大本のリポジトリーのmster以外のbranchに pull request を投げる
+    その後 その 大本のリポジトリbranchがマージされた後 に問題無いとわかれば　masterにbranch内容がマージされます
+    そのmaster内容を 自分の リポジトリーのmasterにpull(持ってくる)とmasterが大本データの最新版になっている状態になる
+    subversion だとそのリポジトリーが一つしか無いため branchのマージが切りにくい状態になる
